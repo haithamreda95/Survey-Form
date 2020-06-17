@@ -1,0 +1,75 @@
+html{font-family:Poppins,sans-serif;
+    font-size: 18px;}
+
+@media(min-width: 576px){main{max-width:540px;}}
+@media(min-width: 768px){main{max-width:720px;}}
+
+header{text-align: center;
+    font-size: 30px;
+    padding: 30px 0 10px 0;}
+
+.thanks{text-align: center;
+    font-style: italic;
+    font-size: 16.5px;}
+
+body{background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    color: white;}
+
+main{background-color: rgba(66, 4, 85, 0.644);
+    border-radius: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:35px ;
+    margin-bottom:50px ;
+    padding:15px 60px 50px 50px;}
+
+label{display: flex;}
+
+.form{margin-top: 35px;
+    margin-bottom: 5px;}
+                
+.input{border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 100%;
+    border-style: hidden;
+    font-size: 15px;}
+
+.clue{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.rollup{margin-top: 35px;
+    margin-bottom: 5px;}
+
+.input-checkbox{display: inline-block;
+                margin-right: 15px;
+                padding-left: 5px;
+                min-height: 20px;
+                min-width: 20px;
+                margin-top: 5px;
+                margin-bottom: 5px;}
+
+.comment{margin-top: 10px;
+    border-radius: 0px;
+    width: 100%;
+    padding: 10px 0px 100px 10px;
+    
+    font-size: 15px;
+    resize: vertical;}
+
+.submit{margin-top: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(41, 187, 41);
+    border-style: hidden;
+    font-size: 15px;
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;}
+            
